@@ -25,7 +25,6 @@ For more help you may run:
 
 ```
 php artisan help bowling:play
-
 ```
 
 ## Execute All Tests
@@ -39,9 +38,11 @@ php artisan help bowling:play
 ```
 app/Console/Commands/PlayBowling.php
 app/Models/BowlingGame.php
+app/Validators/BowlingValidator.php
 ```
 
 ```
+tests/TestCase.php
 tests/Features/SetInputFramesTest.php
 tests/Features/ViewScoreHistoryTest.php
 ```
